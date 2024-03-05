@@ -1,0 +1,83 @@
+
+
+.heading1 {
+  color: #3c91ff; /* Neon green color */
+  text-shadow: 0 0 10px #3c91ff; /* Glow effect */
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #1e1e1e; /* Slightly lighter dark background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 0 20px #3c91ff; /* Glow effect */
+}
+
+.imageContainer img {
+  max-width: 100%;
+  border: 3px solid #3c91ff; /* Neon green border */
+  border-radius: 8px;
+}
+
+.chatContainer {
+  background-color: #2c2c2c; /* Even lighter dark background for the chat container */
+  border: 2px solid #3c91ff; /* Neon green border */
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 400px;
+  border-radius: 8px;
+}
+
+.userMessage, .assistantMessage {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.userMessage {
+  background-color: #575757; /* Dark background for user messages */
+  color: #ffffff;
+}
+
+.assistantMessage {
+
+  color: #ffffff;
+}
+
+.optionButton {
+  background-color: #3c91ff; /* Neon green background for buttons */
+  color: #121212; /* Dark text color for buttons */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #3c91ff; /* Glow effect */
+  font-size: 16px;
+}
+
+.optionButton:hover {
+  background-color: #3580e2; /* Lighter green on hover */
+}
+
+.messageInputContainer {
+  margin-top: 20px;
+}
+
+.textarea, .inputSubmit, .inputButton {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.inputSubmit, .inputButton {
+  cursor: pointer;
+}
